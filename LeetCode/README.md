@@ -222,3 +222,26 @@ if __name__ == "__main__":
     print(ListNode([1, 3, 5]))  # ListNode{val: 2, next: ListNode{val: 4, next: ListNode{val: 3, next: None}}}
 ```
 
+### TreeNode
+
+```python
+class TreeNode:
+    """
+    LeetCode官方TreeNode类仿写（模拟官方功能）
+    主要用于本地IDE调试
+    """
+
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+    def gatherAttrs(self):
+        return ", ".join("{}: {}".format(k, getattr(self, k)) for k in self.__dict__.keys())
+
+    def __str__(self):
+        return self.__class__.__name__ + "{" + "{}".format(self.gatherAttrs()) + "}"
+```
+
+
+
