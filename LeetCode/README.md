@@ -20,8 +20,8 @@
 | [0017.电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | 中等     | 字符串、回溯算法                       |                |
 | [0018.四数之和](https://leetcode-cn.com/problems/4sum/)      | 中等     | 数组、哈希表、双指针                   |                |
 | [0019.删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | 中等     | 链表、双指针                           |                |
-| [0020.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单     | 栈、字符串                             |                |
-| [0021.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 简单     | 链表                                   |                |
+| [0020.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单     | 栈、字符串                             | 36ms (>89.92%) |
+| [0021.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | 简单     | 链表                                   | 40ms (>90.66%) |
 | [0022.括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | 中等     | 字符串、回溯算法                       |                |
 | [0023.合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | 困难     | 堆、链表、分治算法                     |                |
 | [0024.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | 中等     | 链表                                   |                |
