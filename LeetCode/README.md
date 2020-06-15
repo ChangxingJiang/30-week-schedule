@@ -35,10 +35,10 @@
 | [0032.最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | 困难     | 字符串、动态规划                       |                |
 | [0033.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | 中等     | 数组、二分查找                         |                |
 | [0034.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 中等     | 数组、二分查找                         |                |
-| [0035.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | 简单     | 数组、二分查找                         |                |
+| [0035.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | 简单     | 数组、二分查找                         | 32ms (>96.96%) |
 | [0036.有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | 中等     | 哈希表                                 |                |
 | [0037.解数独](https://leetcode-cn.com/problems/sudoku-solver/) | 困难     | 有效的数独                             |                |
-| [0038.外观数列](https://leetcode-cn.com/problems/count-and-say/) | 简单     | 字符串                                 |                |
+| [0038.外观数列](https://leetcode-cn.com/problems/count-and-say/) | 简单     | 字符串                                 | 36ms (>97.26%) |
 | [0039.组合总和](https://leetcode-cn.com/problems/combination-sum/) | 中等     | 数组、回溯算法                         |                |
 | [0040.组合总和](https://leetcode-cn.com/problems/combination-sum-ii/) | 中等     | 数组、回溯算法                         |                |
 | [0041.缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) | 困难     | 数组                                   |                |
