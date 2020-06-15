@@ -1,5 +1,5 @@
 # LeetCode解题之路(Python)
-| 题目                                                         | 题目难度 | 题目相关                               | 执行用时       |
+| 题目                                                         | 题目难度 | 题目相关                               | Python实现用时 |
 | ------------------------------------------------------------ | -------- | -------------------------------------- | -------------- |
 | [0001.两数之和](https://leetcode-cn.com/problems/two-sum/)   | 简单     | 数组、哈希表                           | 56ms (>77.63%) |
 | [0002.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | 中等     | 链表、数学                             | 68ms (>88.91%) |
@@ -14,7 +14,7 @@
 | [0011.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | 中等     | 数组、双指针                           |                |
 | [0012.整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) | 中等     | 数学、字符串                           |                |
 | [0013.罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | 简单     | 数学、字符串                           | 52ms (>92.57%) |
-| [0014.最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | 简单     | 字符串                                 |                |
+| [0014.最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | 简单     | 字符串                                 | 32ms (>97.34%) |
 | [0015.三数之和](https://leetcode-cn.com/problems/3sum/)      | 中等     | 数组、双指针                           |                |
 | [0016.最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | 中等     | 数组、双指针                           |                |
 | [0017.电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | 中等     | 字符串、回溯算法                       |                |
