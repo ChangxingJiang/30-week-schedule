@@ -8,7 +8,7 @@
 | Ans 2 (Python) | 1040ms (>8.16%) |
 | Ans 3 (Python) | 52ms (>62.63%)  |
 
-解法一（遍历寻找重复值,，再遍历移除）：
+解法一（遍历寻找重复值，再遍历移除）：
 
 ```python
 def removeDuplicates(self, nums: List[int]) -> int:
