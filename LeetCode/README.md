@@ -27,8 +27,8 @@
 | [0024.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | 中等     | 链表                                   |                |
 | [0025.K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | 困难     | 链表                                   |                |
 | [0026.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | 简单     | 数组、双指针                           | 52ms (>62.63%) |
-| [0027.移除元素](https://leetcode-cn.com/problems/remove-element/) | 简单     | 数组、双指针                           |                |
-| [0028.实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | 简单     | 双指针、字符串                         |                |
+| [0027.移除元素](https://leetcode-cn.com/problems/remove-element/) | 简单     | 数组、双指针                           | 40ms (>67.81%) |
+| [0028.实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | 简单     | 双指针、字符串                         | 40ms (>78.00%) |
 | [0029.两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | 中等     | 数学、二分查找                         |                |
 | [0030.串联所有单词](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | 困难     | 哈希表、双指针、字符串                 |                |
 | [0031.下一个排列](https://leetcode-cn.com/problems/next-permutation/) | 中等     | 数组                                   |                |
