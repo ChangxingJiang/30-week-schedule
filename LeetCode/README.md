@@ -91,7 +91,7 @@
 | [0085.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难     | 栈、数组、哈希表、动态规划             |                                                              |
 | [0086.分隔链表](https://leetcode-cn.com/problems/partition-list/) | 中等     | 链表、双指针                           |                                                              |
 | [0087.扰乱字符串](https://leetcode-cn.com/problems/scramble-string/) | 困难     | 字符串、动态规划                       |                                                              |
-| [0088.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 简单     | 数组、双指针                           |                                                              |
+| [0088.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 简单     | 数组、双指针                           | Python                                                       |
 | [0089.格雷编码](https://leetcode-cn.com/problems/gray-code/) | 中等     | 回溯算法                               |                                                              |
 | [0090.子集II](https://leetcode-cn.com/problems/subsets-ii/)  | 中等     | 数组、回溯算法                         |                                                              |
 | [0091.解码方法](https://leetcode-cn.com/problems/decode-ways/) | 中等     | 字符串、动态规划                       |                                                              |
@@ -103,7 +103,7 @@
 | [0097.交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | 困难     | 字符串、动态规划                       |                                                              |
 | [0098.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | 中等     | 树、深度优先搜索                       |                                                              |
 | [0099.恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | 困难     | 树、深度优先搜索                       |                                                              |
-| [0100.相同的树](https://leetcode-cn.com/problems/same-tree/) | 简单     | 树、深度优先搜索                       |                                                              |
+| [0100.相同的树](https://leetcode-cn.com/problems/same-tree/) | 简单     | 树、深度优先搜索                       | Python                                                       |
 | [0101.对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | 简单     | 树、深度优先搜索、广度优先搜索         |                                                              |
 | [0102.二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | 中等     | 树、广度优先搜索                       |                                                              |
 | [0103.二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等     | 栈、树、广度优先搜索                   |                                                              |
