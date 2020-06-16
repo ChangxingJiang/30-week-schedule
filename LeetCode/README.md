@@ -113,7 +113,7 @@
 | [0107.二叉树的层次遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | 简单     | 树、广度优先搜索                       | Python                                                       |
 | [0108.将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | 简单     | 树、深度优先搜索                       | Python                                                       |
 | [0109.有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | 中等     | 深度优先搜索、链表                     |                                                              |
-| [0110.平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | 简单     | 树、深度优先搜索                       |                                                              |
+| [0110.平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | 简单     | 树、深度优先搜索                       | Python                                                       |
 | [0111.二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | 简单     | 树、深度优先搜索、广度优先搜索         |                                                              |
 | [0112.路径总和](https://leetcode-cn.com/problems/path-sum/)  | 简单     | 树、深度优先搜索                       |                                                              |
 | [0113.路径总和II](https://leetcode-cn.com/problems/path-sum-ii/) | 中等     | 树、深度优先搜索                       |                                                              |
