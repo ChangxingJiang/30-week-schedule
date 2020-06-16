@@ -1,11 +1,5 @@
 # LeetCode解题之路
 
-## 实现解析
-
-ListNode
-
-TreeNode
-
 ## 题目列表
 
 | 题目                                                         | 题目难度 | 题目相关                               | 题解                                                         |
@@ -79,7 +73,7 @@ TreeNode
 | [0067.二进制求和](https://leetcode-cn.com/problems/add-binary/) | 简单     | 数组、字符串                           | Python                                                       |
 | [0068.文本左右对齐](https://leetcode-cn.com/problems/text-justification/) | 困难     | 字符串                                 |                                                              |
 | [0069.x的平方根](https://leetcode-cn.com/problems/sqrtx/)    | 简单     | 数学、二分查找                         | Python                                                       |
-| [0070.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | 简单     | 动态规划                               |                                                              |
+| [0070.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | 简单     | 动态规划、（矩阵快速幂）               | Python                                                       |
 | [0071.简化路径](https://leetcode-cn.com/problems/simplify-path/) | 中等     | 栈、字符串                             |                                                              |
 | [0072.编辑距离](https://leetcode-cn.com/problems/edit-distance/) | 困难     | 字符串、动态规划                       |                                                              |
 | [0073.矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | 中等     | 数组                                   |                                                              |
@@ -92,7 +86,7 @@ TreeNode
 | [0080.删除排序数组中的重复项II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | 中等     | 数组、双指针                           |                                                              |
 | [0081.搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | 中等     | 数组、二分查找                         |                                                              |
 | [0082.删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | 中等     | 链表                                   |                                                              |
-| [0083.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | 简单     | 链表                                   |                                                              |
+| [0083.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | 简单     | 链表                                   | Python                                                       |
 | [0084.柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | 困难     | 栈、数组                               |                                                              |
 | [0085.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难     | 栈、数组、哈希表、动态规划             |                                                              |
 | [0086.分隔链表](https://leetcode-cn.com/problems/partition-list/) | 中等     | 链表、双指针                           |                                                              |
