@@ -1,4 +1,4 @@
-from LeetCode.toolkit import TreeNode
+from LeetCode.toolkit import TreeNode, build_TreeNode
 
 
 class Solution:
@@ -13,24 +13,6 @@ class Solution:
 
 
 if __name__ == "__main__":
-    tree_1 = TreeNode(1)
-    tree_1.left = TreeNode(2)
-    tree_1.right = TreeNode(3)
-    tree_2 = TreeNode(1)
-    tree_2.left = TreeNode(2)
-    tree_2.right = TreeNode(3)
-    print(Solution().isSameTree(tree_1, tree_2))  # True
-
-    tree_1 = TreeNode(1)
-    tree_1.left = TreeNode(2)
-    tree_2 = TreeNode(1)
-    tree_2.right = TreeNode(2)
-    print(Solution().isSameTree(tree_1, tree_2))  # False
-
-    tree_1 = TreeNode(1)
-    tree_1.left = TreeNode(2)
-    tree_1.right = TreeNode(1)
-    tree_2 = TreeNode(1)
-    tree_2.left = TreeNode(1)
-    tree_2.right = TreeNode(2)
-    print(Solution().isSameTree(tree_1, tree_2))  # False
+    print(Solution().isSameTree(build_TreeNode([1, 2, 3]), build_TreeNode([1, 2, 3])))  # True
+    print(Solution().isSameTree(build_TreeNode([1, 2]), build_TreeNode([1, None, 2])))  # False
+    print(Solution().isSameTree(build_TreeNode([1, 2, 1]), build_TreeNode([1, 1, 2])))  # False
