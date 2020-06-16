@@ -75,10 +75,10 @@ TreeNode
 | [0063.不同路径II](https://leetcode-cn.com/problems/unique-paths-ii/) | 中等     | 数组、动态规划                         |                                                              |
 | [0064.最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | 中等     | 数组、动态规划                         |                                                              |
 | [0065.有效数字](https://leetcode-cn.com/problems/valid-number/) | 困难     | 数学、字符串                           |                                                              |
-| [0066.加一](https://leetcode-cn.com/problems/plus-one/)      | 简单     | 数组                                   |                                                              |
-| [0067.二进制求和](https://leetcode-cn.com/problems/add-binary/) | 简单     | 数组、字符串                           |                                                              |
+| [0066.加一](https://leetcode-cn.com/problems/plus-one/)      | 简单     | 数组                                   | Python                                                       |
+| [0067.二进制求和](https://leetcode-cn.com/problems/add-binary/) | 简单     | 数组、字符串                           | Python                                                       |
 | [0068.文本左右对齐](https://leetcode-cn.com/problems/text-justification/) | 困难     | 字符串                                 |                                                              |
-| [0069.x的平方根](https://leetcode-cn.com/problems/sqrtx/)    | 简单     | 数学、二分查找                         |                                                              |
+| [0069.x的平方根](https://leetcode-cn.com/problems/sqrtx/)    | 简单     | 数学、二分查找                         | Python                                                       |
 | [0070.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | 简单     | 动态规划                               |                                                              |
 | [0071.简化路径](https://leetcode-cn.com/problems/simplify-path/) | 中等     | 栈、字符串                             |                                                              |
 | [0072.编辑距离](https://leetcode-cn.com/problems/edit-distance/) | 困难     | 字符串、动态规划                       |                                                              |
