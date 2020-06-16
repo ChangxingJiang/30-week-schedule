@@ -104,14 +104,14 @@
 | [0098.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | 中等     | 树、深度优先搜索                       |                                                              |
 | [0099.恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | 困难     | 树、深度优先搜索                       |                                                              |
 | [0100.相同的树](https://leetcode-cn.com/problems/same-tree/) | 简单     | 树、深度优先搜索                       | Python                                                       |
-| [0101.对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | 简单     | 树、深度优先搜索、广度优先搜索         |                                                              |
+| [0101.对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | 简单     | 树、深度优先搜索、广度优先搜索         | Python                                                       |
 | [0102.二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | 中等     | 树、广度优先搜索                       |                                                              |
 | [0103.二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等     | 栈、树、广度优先搜索                   |                                                              |
-| [0104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 简单     | 树、深度优先搜索                       |                                                              |
+| [0104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 简单     | 树、深度优先搜索                       | Python                                                       |
 | [0105.从前序和中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 中等     | 树、深度优先搜索、数组                 |                                                              |
 | [0106.从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 中等     | 树、深度优先搜索、数组                 |                                                              |
-| [0107.二叉树的层次遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | 简单     | 树、广度优先搜索                       |                                                              |
-| [0108.将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | 简单     | 树、深度优先搜索                       |                                                              |
+| [0107.二叉树的层次遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | 简单     | 树、广度优先搜索                       | Python                                                       |
+| [0108.将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | 简单     | 树、深度优先搜索                       | Python                                                       |
 | [0109.有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | 中等     | 深度优先搜索、链表                     |                                                              |
 | [0110.平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | 简单     | 树、深度优先搜索                       |                                                              |
 | [0111.二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | 简单     | 树、深度优先搜索、广度优先搜索         |                                                              |
