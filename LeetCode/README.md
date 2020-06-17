@@ -171,7 +171,7 @@
 | [0165.比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/) | 中等     | 字符串                                 |                                                              |
 | [0166.分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | 中等     | 哈希表、数字                           |                                                              |
 | [0167.两数之和II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | 简单     | 数组、双指针、二分查找                 |                                                              |
-| [0168.Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 简单     | 数学                                   |                                                              |
+| **[0168.Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)** | **简单** | **数学**                               |                                                              |
 | [0169.多数元素](https://leetcode-cn.com/problems/majority-element/) | 简单     | 位运算、数组、分治算法                 |                                                              |
 | [0170.两数之和III - 数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/) |          |                                        |                                                              |
 | [0171.Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | 简单     | 数学                                   |                                                              |
