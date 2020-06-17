@@ -24,6 +24,12 @@ class ListNode:
             self.next = None
 
     def set_cycle(self, pos):
+        """
+        设置循环
+
+        :param pos:
+        :return:
+        """
         if pos >= 0:
             self._cycle = True
 
@@ -40,6 +46,20 @@ class ListNode:
             last_node.next = pos_node
         return self
 
+    def set_next(self, next_node):
+        """
+        设置最后一个结点的指针
+
+        :param node:
+        :return:
+        """
+        node = self
+        last_node = None
+        while node:
+            last_node = node
+            node = node.next
+        last_node.next = next_node
+
     def gatherAttrs(self):
         return ", ".join("{}: {}".format(k, getattr(self, k)) for k in self.__dict__.keys())
 
@@ -50,8 +70,38 @@ class ListNode:
             return self.__class__.__name__ + "{" + "{}".format(self.gatherAttrs()) + "}"
 
 
-def build_ListNode(val, pos=-1):
+def build_ListNode_with_pos(val, pos=-1):
+    """
+    构造循环链表
+
+    :param val: 链表
+    :param pos: 链表最后一个结点指针对应的节点编号
+    :return:
+    """
     return ListNode(val).set_cycle(pos)
+
+
+def build_ListNode_with_skip(val, list1, list2, skip1, skip2):
+    """
+    构造相交链表
+
+    :param val: 相较交点
+    :param list1: 链表1
+    :param list2: 链表2
+    :param skip1: 链表1交点位置
+    :param skip2: 链表2交点位置
+    :return:
+    """
+    list_node_1 = ListNode(list1[0:skip1])
+    list_node_2 = ListNode(list2[0:skip2])
+    if skip1 == len(list1):
+        return list_node_1, list_node_2
+    if skip2 == len(list2):
+        return list_node_1, list_node_2
+    list_merge = ListNode(list1[skip1:])
+    list_node_1.set_next(list_merge)
+    list_node_2.set_next(list_merge)
+    return list_node_1, list_node_2
 
 
 class TreeNode:
