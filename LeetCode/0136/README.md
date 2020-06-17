@@ -1,4 +1,4 @@
-# LeetCode题解：0130（只出现一次的数字）
+# LeetCode题解：0136（只出现一次的数字）
 
 [题目链接](https://leetcode-cn.com/problems/single-number/)（简单）
 
