@@ -11,6 +11,7 @@ class ListNode:
         构造器
         :param val: 构造对象
         """
+        self._cycle = False
         if isinstance(val, list):
             if len(val) == 1:
                 self.val = val[0]
@@ -22,11 +23,35 @@ class ListNode:
             self.val = val
             self.next = None
 
+    def set_cycle(self, pos):
+        if pos >= 0:
+            self._cycle = True
+
+            node = self
+            num = 0
+            pos_node = None
+            last_node = None
+            while node:
+                if num == pos:
+                    pos_node = node
+                last_node = node
+                node = node.next
+                num += 1
+            last_node.next = pos_node
+        return self
+
     def gatherAttrs(self):
         return ", ".join("{}: {}".format(k, getattr(self, k)) for k in self.__dict__.keys())
 
     def __str__(self):
-        return self.__class__.__name__ + "{" + "{}".format(self.gatherAttrs()) + "}"
+        if self._cycle:
+            return "Error - Found cycle in the ListNode"
+        else:
+            return self.__class__.__name__ + "{" + "{}".format(self.gatherAttrs()) + "}"
+
+
+def build_ListNode(val, pos=-1):
+    return ListNode(val).set_cycle(pos)
 
 
 class TreeNode:
@@ -84,5 +109,5 @@ def build_TreeNode(val):
 
 
 if __name__ == "__main__":
-    print(ListNode([1, 3, 5]))  # ListNode{val: 1, next: ListNode{val: 3, next: ListNode{val: 5, next: None}}}
-    print(build_TreeNode([1, None, 2, 3, 4]))
+    print(ListNode([3, 2, 0, -4]).set_cycle(pos=1))
+    # print(build_TreeNode([1, None, 2, 3, 4]))
